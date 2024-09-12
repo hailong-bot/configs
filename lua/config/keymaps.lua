@@ -10,5 +10,5 @@ map("n", "<leader>rn", function()
 end, { expr = true })
 
 -- DiffView
-map("n", "<leader>dfo", ":DiffviewOpen<CR>")
+map("n", "<leader>dfa", ":DiffviewOpen<CR>")
 map("n", "<leader>dfc", ":DiffviewClose<CR>")
