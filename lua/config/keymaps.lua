@@ -8,3 +8,7 @@ map("n", "<leader>rn", ":IncRename ")
 map("n", "<leader>rn", function()
   return ":IncRename " .. vim.fn.exepath("<cword>")
 end, { expr = true })
+
+-- DiffView
+map("n", "<leader>dfo", ":DiffviewOpen<CR>")
+map("n", "<leader>dfc", ":DiffviewClose<CR>")
