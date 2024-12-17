@@ -22,6 +22,7 @@ require("lazy").setup({
     -- configuration
     { import = "lazyvim.plugins.extras.lang.go" },
     { import = "lazyvim.plugins.extras.ui.mini-animate" },
+    { import = "lazyvim.plugins.extras.coding.mini-comment" },
 
     -- import/override with your plugins
     { import = "plugins" },
