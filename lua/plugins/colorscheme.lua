@@ -1,6 +1,4 @@
 return {
-  { "ellisonleao/gruvbox.nvim" },
-
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
@@ -8,4 +6,6 @@ return {
       colorscheme = "gruvbox",
     },
   },
+  -- add gruvbox
+  { "ellisonleao/gruvbox.nvim" },
 }
